@@ -103,16 +103,16 @@ function PerkTable({}: PerkTableProps) {
       <Input
         min={100}
         onChange={handleFilterChange}
-        placeholder="Filter by name, index, or description"
+        placeholder="搜索：序号、名称"
         className="mb-10"
       />
       <Table>
         <TableHeader>
           <TableRow>
-            <TableCell className="w-[100px]">Icon</TableCell>
-            <TableCell className="w-[100px]">Index</TableCell>
-            <TableCell className="w-[200px]">Name</TableCell>
-            <TableCell>Description</TableCell>
+            <TableCell className="w-[100px]">图标</TableCell>
+            <TableCell className="w-[100px]">序号</TableCell>
+            <TableCell className="w-[200px]">名称</TableCell>
+            <TableCell>描述</TableCell>
           </TableRow>
         </TableHeader>
         <TableBody>
