@@ -12,7 +12,7 @@ export async function getManifest() {
 
   const data = await response.json();
   const destinySandboxPerkDefinition =
-    data.Response.jsonWorldComponentContentPaths.zh\-chs.DestinySandboxPerkDefinition;
+    data.Response.jsonWorldComponentContentPaths."zh-chs".DestinySandboxPerkDefinition;
 
   const url_v2 = "https://www.bungie.net" + destinySandboxPerkDefinition;
   const response_v2 = await fetch(url_v2);
