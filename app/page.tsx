@@ -181,11 +181,8 @@ export default function IndexPage() {
     <section className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
       <div className="flex max-w-[980px] flex-col items-start gap-2">
         <h1 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">
-          For all my YanisPasters <br className="hidden sm:inline" />
+          命运2 prek
         </h1>
-        <p className="max-w-[1000px] text-lg text-muted-foreground">
-        Fast and efficient perk searcher for Destiny 2 enthusiasts, built with React and Next.js.
-        </p>
       </div>
       <PerkTable></PerkTable>
     </section>
