@@ -155,7 +155,7 @@ export default function IndexPage() {
     "YanisPerks",
     "Discord: @yanbxr",
     "Yanis made this!",
-    "yanischeats.cc"
+    "likelisi.github.io/YanisPerks_zh"
     // Add more titles as needed
   ];
 
