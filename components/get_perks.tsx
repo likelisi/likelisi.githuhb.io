@@ -13,8 +13,8 @@ export async function getManifest() {
   const data = await response.json();
   const destinySandboxPerkDefinition =
     data.Response.jsonWorldComponentContentPaths.en.DestinySandboxPerkDefinition;
-
-  const url_v2 = "https://www.bungie.net" + "/common/destiny2_content/json/zh-chs/DestinySandboxPerkDefinition-7cf462e9-6581-43d2-bcdf-0456377f5873.json";
+                                              
+  const url_v2 = "https://www.bungie.net" + "/common/destiny2_content/json/zh-chs/DestinyUnlockDefinition-180d19ec-32f8-4b44-8b2a-fcc5163f4db0.json";
   const response_v2 = await fetch(url_v2);
   const data_v2 = await response_v2.json();
   
